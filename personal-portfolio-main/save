@@ -1,0 +1,188 @@
+<section class="ftco-section" id="project-section">
+      <div class="container-fluid px-md-5">
+        <div class="row justify-content-center py-5 mt-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+            <h2 class="mb-4">Projects</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 text-center d-flex ftco-animate">
+            <a class="services-1 shadow">
+              <span class="icon">
+                <i class="flaticon-camp"></i>
+              </span>
+              <div class="desc">
+                <h3 class="mb-4">YelpCamp</h3>
+                <p><strong>NodeJS • Express • MongoDB</strong></p>
+                <p>
+                  A web based application that allows user to view Campgrounds
+                  and add their own. <br />
+                  Used Node JS along with Express to make the application.
+                  MongoDB for the database.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 text-center d-flex mx-auto ftco-animate">
+            <a
+              href="https://github.com/ahsankhan26/Book-Blog"
+              target="_blank"
+              class="services-1 shadow"
+            >
+              <span class="icon">
+                <i class="icon-book"></i>
+              </span>
+              <div class="desc">
+                <h3 class="mb-4">My Read Book Shelf</h3>
+                <p><strong>Vanilla JS • Bootstrap</strong></p>
+                <p>
+                  Fetches All Read Books from Goodreads using their API.
+                  Extracts required data and displays in a blog type page.<br />All
+                  without using a Database
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 text-center d-flex mx-auto ftco-animate">
+            <a
+              href="https://github.com/ahsankhan26/TermFolio"
+              target="_blank"
+              class="services-1 shadow"
+            >
+              <span class="icon">
+                <i class="icon-terminal"></i>
+              </span>
+              <div class="desc">
+                <h3 class="mb-4">TermFolio</h3>
+                <p><strong>HTML • CSS • JavaScript</strong></p>
+                <p>
+                  A Portfolio Website that is made to look and act like a
+                  Terminal.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 text-center d-flex mx-auto ftco-animate">
+            <a
+              href="https://github.com/ahsankhan26/Whatsapp-Chat-Parser"
+              target="_blank"
+              class="services-1 shadow"
+            >
+              <span class="icon">
+                <i class="icon-whatsapp"></i>
+              </span>
+              <div class="desc">
+                <h3 class="mb-4">WhatsApp Chat Parser</h3>
+                <p><strong>Python • Regex</strong></p>
+                <p>
+                  An App that takes WhatsApp chat file and parses it for better
+                  data analysis.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 text-center d-flex ftco-animate">
+            <a
+              href="https://github.com/ahsankhan26/Laser-Data-Transmission"
+              target="_blank"
+              class="services-1 shadow"
+            >
+              <span class="icon">
+                <i class="flaticon-circuit-board"></i>
+              </span>
+              <div class="desc">
+                <h3 class="mb-4">Data Transmission with Laser</h3>
+                <p><strong>Arduino</strong></p>
+                <p>
+                  A hardware based demonstration of Binary ASCII representation
+                  of Text, Sent and Received from one system to another using
+                  Laser and Arduino.
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 text-center d-flex ftco-animate">
+            <a
+              href="https://github.com/ahsankhan26/Bomberman-Replica"
+              target="_blank"
+              class="services-1 shadow"
+            >
+              <span class="icon">
+                <i class="flaticon-bomberman"></i>
+              </span>
+              <div class="desc">
+                <h3 class="mb-4">SNES Bomberman Replica Game</h3>
+                <p><strong>C# • Unity</strong></p>
+                <p>
+                  Video game using Unity 2D game development environment and C#
+                  Scripts for interactivity.<br />The game was intended to be
+                  multiplayer competing against each other.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <div class="row no-gutters block-9">
+      <div class="col-md-6 order-md-last d-flex">
+        <form
+          method="POST"
+          action=""
+          class="bg-light p-4 p-md-5 contact-form"
+        >
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              name="name"
+              placeholder="Your Name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-control"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              id=""
+              cols="30"
+              rows="7"
+              class="form-control"
+              name="message"
+              placeholder="Message"
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <input
+              type="submit"
+              value="Send Message"
+              class="btn btn-primary py-3 px-5"
+            />
+            <input type="hidden" name="_next" value="//ahsankhan.me" />
+          </div>
+        </form>
+      </div>
+
+      <div class="col-md-6 d-flex">
+        <div
+          class="img"
+          style="background-image: url(images/about.jpeg)"
+        ></div>
+      </div>
+    </div>
